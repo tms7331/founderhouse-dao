@@ -15,7 +15,7 @@ export default function JoinPage() {
         <div className="container mx-auto px-4 py-8">
             <Card className="w-full max-w-2xl mx-auto">
                 <CardHeader>
-                    <CardTitle className="text-3xl font-bold text-center">Apply to Founderhouse Dao</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-center">Apply to Founderhouse DAO</CardTitle>
                     <CardDescription className="text-center">Choose your membership type and fill out the form below</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -25,15 +25,15 @@ export default function JoinPage() {
                                 <div className="flex items-center space-x-2">
                                     <RadioGroupItem value="mentor" id="mentor" />
                                     <Label htmlFor="mentor" className="font-medium">
-                                        Elite Membership
-                                        <p className="text-sm text-muted-foreground">For mentors and established founders.  Better than free - Get paid to stay</p>
+                                        Investor Membership
+                                        <p className="text-sm text-muted-foreground">Find the next unicorn on day one.  Give 5% equity of any deal made via community events back to the community</p>
                                     </Label>
                                 </div>
                                 <div className="flex items-center space-x-2">
                                     <RadioGroupItem value="normal" id="normal" />
                                     <Label htmlFor="normal" className="font-medium">
-                                        Normal Membership
-                                        <p className="text-sm text-muted-foreground">For founders and investors, $400/month (excludes accommodation)</p>
+                                        Founder Membership
+                                        <p className="text-sm text-muted-foreground">Join the community of founders.  Give 1% of your equity above 10 million back to the community</p>
                                     </Label>
                                 </div>
                             </RadioGroup>

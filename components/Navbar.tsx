@@ -18,25 +18,25 @@ export default function Navbar() {
 
     const menuItems = [
         { label: "Join", href: "/join" },
-        { label: "Cities", href: "/cities" },
+        { label: "Communities", href: "/cities" },
         { label: "Network", href: "/network" },
-        { label: "My Reservations", href: "/myreservations" },
         { label: "My Account", href: "/myaccount" },
+        { label: "My Reservations", href: "/myreservations" },
     ]
 
     return (
-        <nav className="bg-background border-b">
+        <nav>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
-                        <Link href="/" className="text-2xl font-bold text-primary">
+                        <Link href="/" className="text-2xl font-bold text-white">
                             Founderhouse DAO
                         </Link>
                     </div>
                     <div className="hidden md:block">
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
-                                <Button variant="outline">Menu</Button>
+                                <Button variant="outline" className="text-black">Menu</Button>
                             </DropdownMenuTrigger>
                             <DropdownMenuContent align="end">
                                 {menuItems.map((item) => (
