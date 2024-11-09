@@ -44,7 +44,7 @@ export default function Component() {
                 </CardHeader>
                 <CardContent>
                     <p className="text-lg font-semibold">City: Lisbon</p>
-                    <p className="text-lg">Dates: November 15-17, 2024</p>
+                    <p className="text-lg">Dates: July 1-11, 2023</p>
                 </CardContent>
             </Card>
 

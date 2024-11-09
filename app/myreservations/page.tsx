@@ -8,9 +8,9 @@ import Link from 'next/link'
 
 // Mock data for reservations
 const reservations = [
-    { id: 1, city: "New York", dates: "January 15-20, 2025", status: "upcoming", details: "5-night stay at The Plaza Hotel" },
-    { id: 2, city: "San Francisco", dates: "December 1-5, 2024", status: "upcoming", details: "4-night stay at The Fairmont San Francisco" },
-    { id: 3, city: "Lisbon", dates: "July 1-7, 2023", status: "past", details: "6-night stay at Tivoli Avenida Liberdade Lisboa" },
+    { id: 1, city: "San Francisco", dates: "December 1-12, 2024", status: "upcoming", details: "4-night stay at The Fairmont San Francisco" },
+    { id: 2, city: "New York", dates: "January 15-30, 2025", status: "upcoming", details: "5-night stay at The Plaza Hotel" },
+    { id: 3, city: "Lisbon", dates: "July 1-11, 2023", status: "past", details: "6-night stay at Tivoli Avenida Liberdade Lisboa" },
 ]
 
 export default function ReservationsPage() {

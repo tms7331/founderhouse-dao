@@ -12,7 +12,7 @@ export default function Component() {
         areasOfInterest: "Decentralized social, poker, AI, defi, telegram bots",
         currentStartup: "Founderhouse DAO",
         problemsSolved: "We make it easy to meet the right people to help you launch and grow your startup",
-        problemsFaced: "Finding initial users and settling on an initial location has been a challenge"
+        problemsFaced: "How can we keep the bar high to make sure we have a high quality community of founders? Finding initial users and settling on an initial location has been a challenge"
     })
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

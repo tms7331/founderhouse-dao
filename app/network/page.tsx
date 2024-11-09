@@ -16,20 +16,22 @@ const networkMembers = [
         upcomingStays: [
             { place: "San Francisco", dates: "Aug 15-28, 2025" },
             { place: "New York", dates: "Sep 5-25, 2025" }
-        ]
+        ],
+        synergy: "Alice Johnson’s AI expertise could enhance Founderhouse DAO’s user matching, while her scaling experience may help attract and retain initial users.",
     },
     {
-        name: "Bob Smith",
-        bio: "Experienced software engineer specializing in blockchain technology.",
-        image: "/placeholder.svg?height=100&width=100",
-        interests: ["Blockchain", "Cryptocurrency", "Smart Contracts"],
-        currentStartup: "BlockChain Solutions",
-        problemsSolved: ["Implemented a secure voting system on blockchain"],
-        problemsFaced: ["Regulatory challenges in different countries"],
-        upcomingStays: [
-            { place: "Dubai", dates: "Jul 1-15, 2025" },
-            { place: "Lisbon", dates: "Jul 10-20, 2025" }
-        ]
+        "name": "Alex Chen",
+        "bio": "Early stage investor passionate about consumer-facing AI applications",
+        "image": "/placeholder.svg?height=100&width=100",
+        "interests": ["Consumer AI", "Product-Led Growth", "Behavioral Analytics"],
+        "currentInvestmentFocus": "AI-powered apps for personal productivity and digital wellness",
+        "problemsSolved": ["Take a hands-on approach to help early stage consumer apps become successful"],
+        "problemsFaced": ["Tracking all the investments I've made and ensuring I'm giving help to those that need it"],
+        "upcomingStays": [
+            { "place": "San Francisco", "dates": "Sep 5-12, 2025" },
+            { "place": "Lisbon", "dates": "Oct 15-30, 2025" }
+        ],
+        "synergy": "Alex Chen’s insight into consumer AI could help Founderhouse DAO understand user behaviors better, enabling personalized experiences that drive engagement and meet early user needs in meaningful ways."
     },
     {
         name: "Carol Davis",
@@ -42,8 +44,23 @@ const networkMembers = [
         upcomingStays: [
             { place: "Lisbon", dates: "Aug 1-14, 2025" },
             { place: "New York", dates: "Aug 10-25, 2025" }
-        ]
-    }
+        ],
+        synergy: "Carol Davis’s expertise in UX/UI design could help Founderhouse DAO create a more intuitive and engaging user experience, attracting and retaining initial users more effectively.",
+    },
+    {
+        name: "Bob Smith",
+        bio: "Experienced software engineer specializing in blockchain technology.",
+        image: "/placeholder.svg?height=100&width=100",
+        interests: ["Blockchain", "Cryptocurrency", "Smart Contracts"],
+        currentStartup: "BlockChain Solutions",
+        problemsSolved: ["Implemented a secure voting system on blockchain"],
+        problemsFaced: ["Regulatory challenges in different countries"],
+        upcomingStays: [
+            { place: "Dubai", dates: "Jul 1-15, 2025" },
+            { place: "Lisbon", dates: "Jul 10-20, 2025" }
+        ],
+        synergy: "Bob Smith’s blockchain expertise could enhance Founderhouse DAO's trust and security, while his experience with regulatory challenges may help the platform navigate compliance, making it more attractive to initial users.",
+    },
 ]
 
 // Sample data for current user's project
@@ -123,7 +140,7 @@ export default function Component() {
                             <div className="lg:w-1/3 p-6 bg-muted flex flex-col justify-between">
                                 <div className="mb-6">
                                     <h3 className="font-semibold mb-2">Synergy</h3>
-                                    <p className="text-sm text-muted-foreground">{synergySentence}</p>
+                                    <p className="text-sm text-muted-foreground">{member.synergy}</p>
                                 </div>
                                 <div>
                                     <h3 className="font-semibold mb-2">Upcoming Stays</h3>
