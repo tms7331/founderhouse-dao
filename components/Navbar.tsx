@@ -18,10 +18,12 @@ export default function Navbar() {
 
     const menuItems = [
         { label: "Join", href: "/join" },
+        { label: "How it Works", href: "/how" },
         { label: "Communities", href: "/cities" },
+        { label: "Propose", href: "/propose" },
         { label: "Network", href: "/network" },
         { label: "My Account", href: "/myaccount" },
-        { label: "My Reservations", href: "/myreservations" },
+        { label: "My Events", href: "/myreservations" },
     ]
 
     return (

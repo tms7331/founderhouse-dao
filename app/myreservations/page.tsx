@@ -31,7 +31,7 @@ export default function ReservationsPage() {
 
     return (
         <div className="container mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-6">My Reservations</h1>
+            <h1 className="text-3xl font-bold mb-6">My Pop-up Communities</h1>
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {reservations.map((reservation) => (
                     <Card key={reservation.id}>

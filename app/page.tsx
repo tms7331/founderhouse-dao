@@ -24,10 +24,10 @@ export default function LandingPage() {
               Join Now
             </Link>
             <Link
-              href="/cities"
+              href="/how"
               className="inline-flex items-center justify-center rounded-full text-lg font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-6"
             >
-              Explore Upcoming Communities <ArrowRight className="ml-2 h-5 w-5" />
+              See How it Works <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>
         </div>
