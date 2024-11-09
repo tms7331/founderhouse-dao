@@ -9,10 +9,9 @@ import { Button } from "@/components/ui/button"
 export default function Component() {
     const [tokensRemaining, setTokensRemaining] = useState(1000)
     const [inputs, setInputs] = useState({
-        'John Doe': '',
-        'Jane Smith': '',
-        'Bob Johnson': '',
-        'Alice Williams': '',
+        'Alice Johnson': '',
+        'Bob Smith': '',
+        'Carol Davis': '',
     })
 
     const handleInputChange = (name: string, value: string) => {
@@ -44,8 +43,8 @@ export default function Component() {
                     <CardTitle>Event Details</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <p className="text-lg font-semibold">City: New York</p>
-                    <p className="text-lg">Dates: August 15-17, 2023</p>
+                    <p className="text-lg font-semibold">City: Lisbon</p>
+                    <p className="text-lg">Dates: November 15-17, 2024</p>
                 </CardContent>
             </Card>
 

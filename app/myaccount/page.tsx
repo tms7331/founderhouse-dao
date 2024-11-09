@@ -8,11 +8,11 @@ import { Textarea } from "@/components/ui/textarea"
 
 export default function Component() {
     const [user, setUser] = useState({
-        name: "Jane Doe",
-        areasOfInterest: "AI, Blockchain, Sustainability",
-        currentStartup: "EcoTech Solutions",
-        problemsSolved: "Optimized supply chain logistics, Reduced carbon footprint by 30%",
-        problemsFaced: "Scaling customer support, Navigating regulatory challenges"
+        name: "Thomas Redfern",
+        areasOfInterest: "Decentralized social, poker, AI, defi, telegram bots",
+        currentStartup: "Founderhouse DAO",
+        problemsSolved: "We make it easy to meet the right people to help you launch and grow your startup",
+        problemsFaced: "Finding initial users and settling on an initial location has been a challenge"
     })
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

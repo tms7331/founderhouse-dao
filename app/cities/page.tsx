@@ -37,22 +37,22 @@ export default function CitiesPage() {
         {
             name: "New York",
             description: "Modern coworking spaces in the heart of Manhattan",
-            imageUrl: "/placeholder.svg?height=200&width=400"
+            imageUrl: "/nyc.png?height=200&width=400"
         },
         {
             name: "San Francisco",
             description: "Tech-friendly residences with stunning Bay views",
-            imageUrl: "/placeholder.svg?height=200&width=400"
+            imageUrl: "/sf.png?height=200&width=400"
         },
         {
             name: "Lisbon",
             description: "Charming apartments in historic Alfama district",
-            imageUrl: "/placeholder.svg?height=200&width=400"
+            imageUrl: "/lisbon.png?height=200&width=400"
         },
         {
             name: "Dubai",
             description: "Luxurious living spaces with world-class amenities",
-            imageUrl: "/placeholder.svg?height=200&width=400"
+            imageUrl: "/dubai.png?height=200&width=400"
         }
     ]
 

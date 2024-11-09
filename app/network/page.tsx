@@ -14,8 +14,8 @@ const networkMembers = [
         problemsSolved: ["Developed an AI-powered customer service chatbot"],
         problemsFaced: ["Scaling infrastructure for growing user base"],
         upcomingStays: [
-            { place: "San Francisco", dates: "Aug 15-20, 2023" },
-            { place: "New York", dates: "Sep 5-10, 2023" }
+            { place: "San Francisco", dates: "Aug 15-28, 2025" },
+            { place: "New York", dates: "Sep 5-25, 2025" }
         ]
     },
     {
@@ -27,8 +27,8 @@ const networkMembers = [
         problemsSolved: ["Implemented a secure voting system on blockchain"],
         problemsFaced: ["Regulatory challenges in different countries"],
         upcomingStays: [
-            { place: "London", dates: "Jul 1-10, 2023" },
-            { place: "Berlin", dates: "Jul 15-20, 2023" }
+            { place: "Dubai", dates: "Jul 1-15, 2025" },
+            { place: "Lisbon", dates: "Jul 10-20, 2025" }
         ]
     },
     {
@@ -40,8 +40,8 @@ const networkMembers = [
         problemsSolved: ["Redesigned app interface, increasing user engagement by 40%"],
         problemsFaced: ["Balancing aesthetics with performance on low-end devices"],
         upcomingStays: [
-            { place: "Tokyo", dates: "Aug 1-7, 2023" },
-            { place: "Seoul", dates: "Aug 10-15, 2023" }
+            { place: "Lisbon", dates: "Aug 1-14, 2025" },
+            { place: "New York", dates: "Aug 10-25, 2025" }
         ]
     }
 ]

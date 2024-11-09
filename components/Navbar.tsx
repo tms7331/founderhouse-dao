@@ -18,10 +18,10 @@ export default function Navbar() {
 
     const menuItems = [
         { label: "Join", href: "/join" },
-        { label: "My Account", href: "/myaccount" },
-        { label: "My Reservations", href: "/myreservations" },
         { label: "Cities", href: "/cities" },
         { label: "Network", href: "/network" },
+        { label: "My Reservations", href: "/myreservations" },
+        { label: "My Account", href: "/myaccount" },
     ]
 
     return (
